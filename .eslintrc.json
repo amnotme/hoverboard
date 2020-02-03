@@ -40,7 +40,7 @@
     "partnersActions": true,
     "feedbackActions": true,
     "videosActions": true,
-    "blogActions": true,
+    "blogActions": false,
     "speakersActions": true,
     "previousSpeakersActions": true,
     "sessionsActions": true,

@@ -7,7 +7,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "./build",
+    "public": "build",
     "redirects": [{
       "source": "/index.html",
       "destination": "/",
@@ -18,7 +18,9 @@
       "function": "prerender"
     }],
     "ignore": [
-      "/test/**",
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
       "bower.json",
       "database.rules.json",
       "firebase.json",
@@ -51,6 +53,7 @@
   "functions": {
     "predeploy": [
       "npm --prefix ./functions run build"
-    ]
+    ],
+    "source": "functions"
   }
 }

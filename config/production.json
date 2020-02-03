@@ -1,16 +1,17 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
+  "url": "https://gdgfremontdevfest2020.firebaseapp.com/",
   "analytics": "UA-43643469-9",
   "prefix": "/",
   "firebase": {
-    "appId": "1:516409946568:web:ad5a56d452fc421c",
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "appId": "1:631771738806:web:351553181a744f476fec17",
+    "apiKey": "AIzaSyCeDAdmAwvVnofZantz44Xvh_qAuuqhOfY",
+    "authDomain": "gdgfremontdevfest2020.firebaseapp.com",
+    "databaseURL": "https://gdgfremontdevfest2020.firebaseio.com",
+    "projectId": "gdgfremontdevfest2020",
+    "storageBucket": "gdgfremontdevfest2020.appspot.com",
+    "messagingSenderId": "631771738806",
+    "measurementId": "G-8WYDFC4TKE"
   },
-  "googleMapApiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8"
+  "googleMapApiKey": "AIzaSyBoX1g2ytjFurNj_odF0ovBYYBrOK4ye70"
 }
