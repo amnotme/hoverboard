@@ -7,47 +7,12 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "gdgfremontdevfest2020",
     "public": "build",
-    "redirects": [{
-      "source": "/index.html",
-      "destination": "/",
-      "type" : 301
-    }],
-    "rewrites": [{
-      "source": "**",
-      "function": "prerender"
-    }],
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "bower.json",
-      "database.rules.json",
-      "firebase.json",
-      "README.md"
-    ],
-    "headers": [
-      {
-        "source": "**",
-        "headers": [
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "DENY"
-          },
-          {
-            "key": "X-XSS-Protection",
-            "value": "1; mode=block"
-          },
-          {
-            "key": "Referrer-Policy",
-            "value": "same-origin"
-          }
-        ]
-      }
+      "**/node_modules/**"
     ]
   },
   "functions": {
